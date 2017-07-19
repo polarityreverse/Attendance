@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/holo_purple"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+    <LinearLayout
+        android:id="@+id/student_cred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text = "Name"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/student_roll_no"
+        android:textColor="@android:color/black"
+        android:text="MM14B038"
+        android:textSize="16sp"/>
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/present"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Present"
+            android:padding="3dp"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/absent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Absent"
+            android:padding="3dp"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/leave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leave"
+            android:padding="3dp"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+    <!--<CheckBox-->
+        <!--android:padding="5dp"-->
+        <!--android:layout_toLeftOf="@+id/absent"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Present"-->
+        <!--android:id="@+id/present"-->
+        <!--/>-->
+    <!--<CheckBox-->
+        <!--android:padding="5dp"-->
+        <!--android:layout_toLeftOf="@+id/leave"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Absent"-->
+        <!--android:id="@+id/absent"-->
+        <!--/>-->
+    <!--<CheckBox-->
+        <!--android:padding="5dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Leave"-->
+        <!--android:id="@+id/leave"-->
+        <!--android:layout_alignParentRight="true" />-->
+
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/header"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/attendance_header"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FF9800">
+    <TextView
+        android:id="@+id/attendance_subject"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Subject"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/attendance_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Date"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
+
+<ListView
+android:id="@+id/list_attendance"
+android:layout_below="@+id/attendance_header"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="SUBMIT"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+
+

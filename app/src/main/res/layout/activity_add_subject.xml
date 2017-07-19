@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16sp">
+
+    <EditText
+        android:id="@+id/teacherId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teacher Id"
+        android:inputType="textCapWords" />
+
+
+    <EditText
+        android:id="@+id/add_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        android:inputType="text" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#B2EBF2"
+        android:padding="5dp">
+
+
+        <CheckBox
+            android:id="@+id/monday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Monday"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <Spinner
+            android:id="@+id/monday_timings_spinner"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:layout_alignParentRight="true">
+        </Spinner>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#D7CCC8"
+        android:padding="10dp">
+
+
+        <CheckBox
+            android:id="@+id/tuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Tuesday"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <Spinner
+            android:id="@+id/tuesday_timings_spinner"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:layout_alignParentRight="true">
+        </Spinner>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFAB91"
+        android:padding="10dp">
+
+
+        <CheckBox
+            android:id="@+id/wednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Wednesday"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <Spinner
+            android:id="@+id/wednesday_timings_spinner"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:layout_alignParentRight="true">
+        </Spinner>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#D4E157"
+        android:padding="10dp">
+
+
+        <CheckBox
+            android:id="@+id/thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Thursday"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <Spinner
+            android:id="@+id/thursday_timings_spinner"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:layout_alignParentRight="true">
+        </Spinner>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9CCC65"
+        android:padding="10dp">
+
+
+        <CheckBox
+            android:id="@+id/friday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Friday"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <Spinner
+            android:id="@+id/friday_timings_spinner"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:layout_alignParentRight="true">
+        </Spinner>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#B0BEC5"
+        android:padding="10dp">
+
+
+        <CheckBox
+            android:id="@+id/saturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Saturday"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+        <Spinner
+            android:id="@+id/saturday_timings_spinner"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:layout_alignParentRight="true">
+        </Spinner>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="DONE" />
+
+
+</LinearLayout>

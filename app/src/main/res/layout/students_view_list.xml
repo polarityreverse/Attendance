@@ -1,0 +1,56 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#80CBC4"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <LinearLayout
+                android:layout_toRightOf="@+id/stud_image"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/stud_text_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/stud_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Sumail"
+                    android:textSize="25sp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/stud_roll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="MM14B038"
+                    android:textSize="25sp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/stud_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="sumail@gmail.com"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/stud_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="9999976261"
+                    android:textSize="16sp"/>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/stud_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_portrait_black_36dp" />
+        </RelativeLayout>
